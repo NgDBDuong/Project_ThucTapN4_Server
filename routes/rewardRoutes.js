@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { addReward, getRewardsBalance, transferRewards } = require('../controllers/rewardsController');
+const { addReward, getRewardsBalance, transferRewards } = require('../controller/rewardsController');
 
 // Endpoint để thêm điểm thưởng vào tài khoản người dùng
 router.post('/add', addReward);
